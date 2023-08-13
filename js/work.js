@@ -528,26 +528,25 @@ console.table(cart.getItems());
 //   },
 //   // Change code above this line
 // };
-
 // customer.setDiscount(0.15);
 // console.log(customer.getDiscount()); // 0.15
 // customer.addOrder(5000, 'Steak');
 // console.log(customer.getBalance()); // 19750
 // console.log(customer.getOrders()); // ["Burger", "Pizza", "Salad", "Steak"]
-function checkForSpam(message) {
-  let result;
-  // result = message.toLowerCase().includes('spam');
-  result = message.toLowerCase().includes('sale');
-  console.log(result);
-  return result;
+// function checkForSpam(message) {
+//   let result;
+//   // result = message.toLowerCase().includes('spam');
+//   result = message.toLowerCase().includes('sale');
+//   console.log(result);
+//   return result;
 
-  // result = message.toLowerCase();
-  // return result.includes('spam') || result.includes('sale');
-}
-checkForSpam('Latest technology news');
-checkForSpam('JavaScript weekly newsletter');
-checkForSpam('Get best sale offers now!');
-checkForSpam('Amazing SalE, only tonight!');
-checkForSpam('Trust me, this is not a spam message');
-checkForSpam('Get rid of sPaM emails. Our book in on sale!');
-checkForSpam('[SPAM] How to earn fast money?');
+//   // result = message.toLowerCase();
+//   // return result.includes('spam') || result.includes('sale');
+// }
+// checkForSpam('Latest technology news');
+// checkForSpam('JavaScript weekly newsletter');
+// checkForSpam('Get best sale offers now!');
+// checkForSpam('Amazing SalE, only tonight!');
+// checkForSpam('Trust me, this is not a spam message');
+// checkForSpam('Get rid of sPaM emails. Our book in on sale!');
+// checkForSpam('[SPAM] How to earn fast money?');
