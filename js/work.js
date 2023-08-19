@@ -550,3 +550,89 @@ console.table(cart.getItems());
 // checkForSpam('Trust me, this is not a spam message');
 // checkForSpam('Get rid of sPaM emails. Our book in on sale!');
 // checkForSpam('[SPAM] How to earn fast money?');
+
+// class StringBuilder {
+//   constructor(initialValue = '') {
+//     this.value = initialValue;
+//   }
+//   getValue() {
+//     return this.value;
+//   }
+//   padEnd(str) {
+//     this.value += str;
+//   }
+//   padStart(str) {
+//     this.value = str + this.value;
+//   }
+//   padBoth(str) {
+//     this.padStart(str);
+//     this.padEnd(str);
+//   }
+// }
+// // Change code above this line
+// const builder = new StringBuilder('.');
+// console.log(builder.getValue()); // "."
+// builder.padStart('^');
+// console.log(builder.getValue()); // "^."
+// builder.padEnd('^');
+// console.log(builder.getValue()); // "^.^"
+// builder.padBoth('=');
+// console.log(builder.getValue()); // "=^.^="
+
+// class Storage {
+//   constructor(items) {
+//     this.items = items;
+//   }
+//   getItems() {
+//     return this.items;
+//   }
+//   addItem(newItem) {
+//     this.items.push(newItem);
+//   }
+//   removeItem(itemToRemove) {
+//     const item = this.items.indexOf(itemToRemove);
+//     this.items.splice(item, 1);
+//   }
+// }
+
+// const storage = new Storage(['Nanitoids', 'Prolonger', 'Antigravitator']);
+// console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator"]
+// storage.addItem('Droid');
+// console.log(storage.getItems()); // ["Nanitoids", "Prolonger", "Antigravitator", "Droid"]
+// storage.removeItem('Prolonger');
+// console.log(storage.getItems()); // ["Nanitoids", "Antigravitator", "Droid"]
+
+// class Car {
+//   constructor(model, brand, price = 50000) {
+//     this.model = model;
+//     this.brand = brand;
+//     this.price = price;
+//   }
+//   counterDiscount(discount) {
+//     console.log(`Ціна знижена на ${discount}`);
+//     this.price -= discount;
+//   }
+//   changePrice(newPrice) {
+//     console.log(`Price ${this.brand} was changed, price = ${newPrice}`);
+//     this.price = newPrice;
+//   }
+// }
+// class Track extends Car {
+//   constructor(model, brand, price, trailer = false) {
+//     super(model, brand, price);
+//     this.trailer = trailer;
+//   }
+// }
+
+// const ford = new Car('Fiesta', 'Ford', 15000);
+// const man = new Track('1450', 'Man');
+// ford.counterDiscount(1700);
+// ford.changePrice(34000);
+// console.log(Track.prototype);
+// console.log(man.price);
+
+// let myStr = 'Jello World';
+// // Only change code below this line
+// myStr[0] = 'H';
+// // Change this line
+// // Only change code above this line
