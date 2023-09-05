@@ -636,3 +636,13 @@ console.table(cart.getItems());
 // myStr[0] = 'H';
 // // Change this line
 // // Only change code above this line
+const r = 7;
+const ff = [1, 34, 24, 35, 5];
+let amount = 0;
+ff.forEach(element => {
+  element += amount;
+});
+if (amount / ff.length > r) {
+  console.log('true');
+}
+console.log(false);
